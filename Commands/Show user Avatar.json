@@ -1,0 +1,83 @@
+{
+  "name": "avatar",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "pkoTK",
+  "actions": [
+    {
+      "member": "0",
+      "varName": "",
+      "info": "16",
+      "storage": "1",
+      "varName2": "mem_av",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "memberusername",
+      "name": "Store Member Info"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "** Ecco a te l'avatar di ${tempVars(\"memberusername\")}!**",
+          "url": "",
+          "color": "#ffc0cb",
+          "timestamp": "false",
+          "imageUrl": "${tempVars(\"mem_av\")}",
+          "thumbUrl": "",
+          "description": "",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "Bot creato con tanto amore da Ilaria 💖\n",
+          "footerIconUrl": "https://i.ibb.co/c2MB7hJ/Catturaretet.png"
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "storage": "1",
+      "varName": "emb_1",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "_aliases": [
+    "avatar"
+  ],
+  "_timeRestriction": 5,
+  "comType": "4",
+  "description": "Vedi l'avatar dell'utente menzionato",
+  "parameters": [
+    {
+      "name": "utente",
+      "description": "",
+      "type": "USER",
+      "required": true,
+      "choices": null
+    }
+  ]
+}
