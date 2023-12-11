@@ -1,0 +1,33 @@
+{
+  "name": "mention",
+  "permissions": "NONE",
+  "restriction": "0",
+  "_id": "FQxrF",
+  "actions": [
+    {
+      "message": "0",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "text",
+      "name": "Store Message Info"
+    },
+    {
+      "storage": "1",
+      "varName": "text",
+      "comparison": "5",
+      "value": "<@YOUR-ID-HERE>",
+      "branch": {
+        "iftrue": "0",
+        "iffalse": "1"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "comment": "delete this and add any other comand you want :3",
+      "color": "#fdafd6",
+      "name": "Comment"
+    }
+  ],
+  "comType": "3"
+}
