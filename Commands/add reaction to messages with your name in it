@@ -1,0 +1,18 @@
+{
+  "name": "YOURNAME",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "NCgEC",
+  "actions": [
+    {
+      "storage": "0",
+      "varName": "",
+      "emoji": "4",
+      "varName2": "ADD YOUR EMOJI HERE",
+      "varName3": "",
+      "name": "Add Reaction"
+    }
+  ],
+  "comType": "1"
+}
